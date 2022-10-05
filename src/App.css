@@ -1,0 +1,40 @@
+
+*{
+  scroll-behavior: smooth;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: #173a80;
+  color: white;
+  padding-top: 180px;
+  padding-bottom: 70px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media(max-width:700px){
+  .app{
+    padding-top: 120px;
+    padding-left: 10px;
+    padding-right: 5px;
+  }
+}
+
+.pageTitle{
+   text-transform: uppercase;
+   display: flex;
+   justify-content: center;
+   font-family: Times,  Georgia, serif;
+   font-size: 2vw;
+   padding: 5px;
+   border-radius: 50px;
+   color: aliceblue;
+
+}
+
+@media (max-width:1000px){
+  .pageTitle{
+    font-size: 6vw;
+  }
+}
