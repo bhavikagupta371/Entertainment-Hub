@@ -12,6 +12,8 @@ vote_average,}) => {
     return (
 
         <ContentModal media_type={media_type} id={id}>
+          {/* <div className="media"> */}
+
           <Badge badgeContent={vote_average} color={vote_average >7 ? 'primary':'secondary'}/>
        <img
         className="poster"
@@ -23,8 +25,9 @@ vote_average,}) => {
         {media_type==='tv'?"TV Series":"Movie"}
         <span className="sunTitle"> { date}</span>
       </span>
-
+      {/* </div> */}
         </ContentModal>
+        
     )
 }
 

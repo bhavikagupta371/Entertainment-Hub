@@ -49,7 +49,7 @@ fetchVideo();
   },[])
 
   return (
-    <div>
+    <>
       <div
         className="media"
         style={{ cursor: "pointer" }}
@@ -128,6 +128,6 @@ fetchVideo();
         )}
         </Fade>
       </Modal>
-    </div>
+    </>
   );
 }
